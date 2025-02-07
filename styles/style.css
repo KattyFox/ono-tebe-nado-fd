@@ -35,7 +35,7 @@ flex-shrink: 0;
   list-style-type: none;
 }
 
-.header_menu{
+.header_menu {
  margin-top: 133px;
  display: flex;
 }
@@ -118,7 +118,7 @@ line-height: normal;
   z-index: 4;
 }
 
-.covered-text-first{
+.covered-text-first {
   padding-top: 167px;
   padding-left: 50px;
 }
@@ -196,14 +196,11 @@ line-height: normal;
 }
 
 .lots-card-list {
-  justify-content: space-between;
-}
-
-.lots-card-list {
   list-style: none;
   display: flex;
   width: 100%;
   height: 596px;
+  justify-content: space-between;
 }
 
 .lot-image {
@@ -279,7 +276,6 @@ img {
 
 .lots_look-more-link {
 position: absolute;
-bottom: 5px;
 color: #000;
 font-size: 20px;
 font-style: normal;
