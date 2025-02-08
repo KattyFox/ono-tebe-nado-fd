@@ -25,9 +25,14 @@
 }
 
 .header-contacts-list {
-  justify-self: left; 
+  justify-self: left;
   margin-left: 191px;
   margin-top: 96px;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  line-height: 23.6px;
+  text-underline-offset: 3.5px;
 }
 
 
@@ -42,7 +47,7 @@
 .header_menu-list {
   display: flex;
   gap: 33.5px;
-  list-style-type: disc;
+  list-style-type: circle;
 }
 
 .header_menu-item.active {
@@ -58,14 +63,6 @@
   text-decoration: none;
 }
 
-.header-contacts-list {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-  line-height: 23.6px;
-  text-underline-offset: 3.5px;
-}
-
 .active {
   text-decoration: none;
 }
@@ -74,9 +71,9 @@
   width: 100%;
   min-height: 757px;
   flex-shrink: 0;
-  background-image: url("../images/cover.jpg"); 
-  background-size: cover; 
-  background-position: center; 
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
 }
   
 .overlay::after {
@@ -233,7 +230,7 @@
   flex-shrink: 0;
   margin-right: 40px;
   margin-left: 40px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   position: relative;
 }
 
