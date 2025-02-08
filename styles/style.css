@@ -1,70 +1,33 @@
 .header {
-display: flex;
-justify-content: space-between;
-width: 100%;
-/*height: 293px;*/
-flex-shrink: 0;
-padding-bottom: 94px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr; /* Три колонки: две крайние занимают оставшееся пространство, центральная — минимальную ширину контента */
+  align-items: center; /* Выравниваем элементы по вертикали */
+  width: 100%;
+  padding-bottom: 101px;
+}
 
+.header_menu {
+  justify-self: start; /* Меню прижимаем к левому краю */
+  padding-top: 95px;
+  margin-left: 49px;
 }
 
 .header_logo {
+  justify-self: center; /* Логотип по центру */
   width: 137px;
   height: 105px;
-  display: block;
-  margin-top: 92px;
-  margin-right: 162px;
+  padding-top: 48px;
+  margin-left: 1px;
 }
 
 .header_logo-image {
   width: 100%;
 }
 
-.header_menu-list {
-  display: flex;
-  flex-direction: row ;
-  align-content: space-between;
-  gap: 20px;
-  width: 453.479px;
-  /*height: 20px;*/
-  padding: 0px 0px 0px 50px;
-  list-style-type: circle;
-  text-underline-offset: 3px;
-}
-
-.active {
-  text-decoration-line: none;
-  list-style-type: none;
-}
-
-.header_menu {
- margin-top: 133px;
- display: flex;
-}
-
-.header_menu-item {
-  margin-right: 13.5px;
-}
-
-.header_menu-link {
-color: #000;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
 .header-contacts-list {
+  justify-self: left; 
+  margin-left: 191px;
   margin-top: 96px;
-  margin-right: 87px;
-  max-width: 238px;
-  /*height: 98px;*/
-  flex-shrink: 0;
-  text-align: left;
-  line-height: 23.6px;
-  text-decoration-line: none;
-  text-underline-offset: 4px;
-  list-style: none;
 }
 
 
@@ -76,6 +39,36 @@ line-height: normal;
   list-style: none;
 }
 
+.header_menu-list {
+  display: flex;
+  gap: 33.5px;
+  list-style-type: disc;
+}
+
+.header_menu-item.active {
+  list-style-type: none;
+}
+
+.header_menu-link {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.header-contacts-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  line-height: 23.6px;
+  text-underline-offset: 3.5px;
+}
+
+.active {
+  text-decoration: none;
+}
 .cover {
   position: relative;
   width: 100%;
@@ -118,7 +111,7 @@ line-height: normal;
 }
 
 .covered-text-left {
-  padding-top: 169px;
+  padding-top: 167px;
   padding-left: 50px;
 }
 
@@ -135,7 +128,7 @@ line-height: normal;
 }
 
 .description {
-  padding-top: 104px;
+  padding-top: 106px;
   bottom: 70px;
   display: flex;
   align-items: center;
@@ -201,7 +194,7 @@ line-height: normal;
   gap: 25px;
   width: 100%;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .lot-image {
@@ -257,7 +250,7 @@ line-height: normal;
   text-underline-offset: auto;
   text-underline-position: from-font;
   text-transform: uppercase;
-  padding-top: 48px;
+  padding-top: 46px;
 }
 
 .card-text {
@@ -266,7 +259,7 @@ line-height: normal;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  bottom:49px;
+  bottom:50px;
   padding-left: 4px;
   margin-left: 36px;
 }
@@ -299,8 +292,8 @@ padding-right: 24px;
   justify-content: flex-start;
   align-items: center;
   flex-shrink: 0;
-  margin-left: 46px;
-  margin-top: 35px;
+  margin-left: 48px;
+  margin-top: 34px;
 }
 
 .about_logo {
@@ -312,7 +305,7 @@ padding-right: 24px;
   height: 240px;
   object-fit: none;
   border-radius: 60%;
-  padding: 64px 42.52px 62px 46.48px;
+  padding: 64px 44.5px 58px 46px;
 }
 
 .about_column_description {
@@ -365,7 +358,6 @@ padding-right: 24px;
   flex-flow: column nowrap;
   align-items: flex-start;
   width: 264px;
-  /*height: 24px;*/
   flex-shrink: 0;
   
 }
@@ -375,12 +367,13 @@ padding-right: 24px;
   text-underline-offset: 4px;
   margin-left: 50px;
   list-style: none;
+  padding-top: 1px;
 }
 
 .footer-menu-list {
   flex-shrink: 0;
-  padding-bottom: 11px;
-  padding-right: 5px;
+  padding-top: 1px;
+  padding-right: 4px;
 }
 
 .footer-menu-list_item {
