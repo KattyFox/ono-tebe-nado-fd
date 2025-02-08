@@ -135,7 +135,7 @@ line-height: normal;
 }
 
 .description {
-  padding-top: 105px;
+  padding-top: 104px;
   bottom: 70px;
   display: flex;
   align-items: center;
@@ -169,6 +169,8 @@ line-height: normal;
   flex-shrink: 0;
   z-index: 4;
   margin-right: 50px;
+  padding-right: 8px;
+  padding-bottom: 3px;
 }
 
 .lots {
@@ -354,9 +356,8 @@ padding-right: 24px;
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 180px;
   width: 100%;
-  margin-top: 180px;
+  padding-top: 167px;
 }
 
 .address.footer-contacts-list {
@@ -364,22 +365,22 @@ padding-right: 24px;
   flex-flow: column nowrap;
   align-items: flex-start;
   width: 264px;
-  height: 24px;
+  /*height: 24px;*/
   flex-shrink: 0;
   
 }
 
 .footer-contacts-list {
   line-height: 24.3px;
-  margin-left: 2px;
   text-underline-offset: 4px;
   margin-left: 50px;
   list-style: none;
 }
 
 .footer-menu-list {
-  height: 163.9px;
   flex-shrink: 0;
+  padding-bottom: 11px;
+  padding-right: 5px;
 }
 
 .footer-menu-list_item {
