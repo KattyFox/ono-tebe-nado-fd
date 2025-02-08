@@ -77,15 +77,18 @@ line-height: normal;
   width: 100%;
   height: 757px;
   flex-shrink: 0;
+  background-image: url("../images/cover.jpg"); 
+  background-size: cover; 
+  background-position: center; 
 }
   
-.image_cover {
+/*.image_cover {
   flex-shrink: 0;
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 1;
-}
+}*/
   
 .cover::after {
   content: '';
@@ -118,7 +121,7 @@ line-height: normal;
   z-index: 4;
 }
 
-.covered-text-first {
+.covered-text-left {
   padding-top: 167px;
   padding-left: 50px;
 }
@@ -203,6 +206,24 @@ line-height: normal;
   justify-content: space-between;
 }
 
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg"); /* Устанавливаем фон */
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+
 .lot-image {
   list-style: none;
   display: flex;
@@ -210,9 +231,11 @@ line-height: normal;
   height: 596px;
 }
 
-img {
+
+
+/*img {
   object-fit: cover;
-}
+}*/
 
 .card-link::after {
   content: '';
