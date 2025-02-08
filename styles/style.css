@@ -175,7 +175,7 @@ line-height: normal;
   position: relative;
   width: 100%;
   flex-shrink: 0;
-  margin-top: 181px;
+  margin-top: 183px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -199,6 +199,7 @@ line-height: normal;
   gap: 25px;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .lot-image {
@@ -222,9 +223,6 @@ line-height: normal;
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
 }
-
-
-
 
 .card {
   position: relative;
@@ -257,7 +255,7 @@ line-height: normal;
   text-underline-offset: auto;
   text-underline-position: from-font;
   text-transform: uppercase;
-  padding-top: 38px;
+  padding-top: 48px;
 }
 
 .card-text {
@@ -272,14 +270,12 @@ line-height: normal;
 }
 
 .lots_look-more-link {
-position: absolute;
 color: #000;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-padding-left: 41px;
-bottom: 0;
+margin-left: 40px;
 text-underline-offset: 4px;
 }
 
