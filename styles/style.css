@@ -351,7 +351,7 @@ padding-right: 24px;
   flex-flow: column nowrap;
   align-items: flex-start;
   width: 264px;
-  flex-shrink: 0;  
+  flex-shrink: 0;
 }
 
 .footer-contacts-list {
