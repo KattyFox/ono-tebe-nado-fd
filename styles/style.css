@@ -52,23 +52,25 @@ font-weight: 400;
 line-height: normal;
 }
 
-.header-contacts {
+.header-contacts-list {
   margin-top: 98px;
   margin-right: 51px;
   width: 238px;
   height: 98px;
   flex-shrink: 0;
   text-align: left;
+  line-height: 23.6px;
+  text-decoration-line: none;
+  text-underline-offset: 2px;
+  list-style: none;
+}
+
+
+.address {
   color: #000;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 23.6px;
-  text-decoration-line: none;
-  text-underline-offset: 2px;
-}
-
-.header-contacts-list {
   list-style: none;
 }
 
@@ -231,12 +233,6 @@ line-height: normal;
   height: 596px;
 }
 
-
-
-/*img {
-  object-fit: cover;
-}*/
-
 .card-link::after {
   content: '';
   position: absolute;
@@ -389,26 +385,22 @@ p + p {
   margin-top: 180px;
 }
 
-.address {
+.address.footer-contacts-list {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  list-style: none;
   width: 264px;
   height: 24px;
   flex-shrink: 0;
-  margin-left: 50px;
+  
 }
 
-.address-list {
-  color: #000;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24.3px; /* 135% */
-  list-style: none;
+.footer-contacts-list {
+  line-height: 24.3px;
   margin-left: 2px;
   text-underline-offset: 4px;
+  margin-left: 50px;
+  list-style: none;
 }
 
 .footer-menu-list {
