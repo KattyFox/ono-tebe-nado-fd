@@ -59,7 +59,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration: none;
+  text-underline-offset: 3.5px;
 }
 
 .active {
@@ -218,6 +218,10 @@
   width: 334px;
   min-height: 596px;
   flex-shrink: 0;
+}
+
+.card-link {
+  text-decoration: none;
 }
 
 .card-title,
