@@ -241,11 +241,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  text-decoration-line: underline;
+  text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: none;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 1.5px;
   text-underline-position: from-font;
   text-transform: uppercase;
   padding-top: 46px;
